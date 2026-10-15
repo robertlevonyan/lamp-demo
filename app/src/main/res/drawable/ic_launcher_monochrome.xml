@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Single-colour silhouette for themed icons (Android 13+); the system tints it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- cord, cap and shade -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M53.5,22h1v7h2a1.5,1.5 0,0 1,1.5 1.5v6l2.5,0C68,37.5 82,47 85,61L23,61C26,47 40,37.5 47.5,36.5L50,36.5v-6a1.5,1.5 0,0 1,1.5 -1.5h2z" />
+    <!-- bulb -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M46.5,61a7.5,7.5 0,1 0,15 0z" />
+    <!-- light rays -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,73V80M45,70.5L40.5,76M63,70.5L67.5,76" />
+</vector>

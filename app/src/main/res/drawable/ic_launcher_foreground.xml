@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hanging lamp with a lit bulb casting a warm cone of light. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- light cone -->
+    <path android:pathData="M23,61L85,61L130,108L-22,108Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="66"
+                android:gradientRadius="58">
+                <item android:offset="0" android:color="#B3FFD6A0" />
+                <item android:offset="0.45" android:color="#4DFFC88C" />
+                <item android:offset="1" android:color="#00FFBE78" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- cord -->
+    <path
+        android:strokeColor="#4A4E54"
+        android:strokeWidth="1"
+        android:pathData="M54,0V30" />
+
+    <!-- cap -->
+    <path android:pathData="M51.5,29h5a1.5,1.5 0,0 1,1.5 1.5v7h-8v-7a1.5,1.5 0,0 1,1.5 -1.5z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="50" android:startY="0"
+                android:endX="58" android:endY="0">
+                <item android:offset="0" android:color="#16181A" />
+                <item android:offset="0.45" android:color="#5A5F66" />
+                <item android:offset="1" android:color="#121315" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- shade -->
+    <path
+        android:strokeColor="#26FFFFFF"
+        android:strokeWidth="0.5"
+        android:pathData="M47.5,36.5C40,37.5 26,47 23,61L85,61C82,47 68,37.5 60.5,36.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="23" android:startY="0"
+                android:endX="85" android:endY="0">
+                <item android:offset="0" android:color="#0C0D0F" />
+                <item android:offset="0.3" android:color="#2A2D32" />
+                <item android:offset="0.42" android:color="#5A5F66" />
+                <item android:offset="0.58" android:color="#26292D" />
+                <item android:offset="1" android:color="#0A0B0C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- lit underside of the shade -->
+    <path android:pathData="M23,61a31,3.5 0,1 0,62 0a31,3.5 0,1 0,-62 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="61.5"
+                android:gradientRadius="31">
+                <item android:offset="0" android:color="#FFE8C4" />
+                <item android:offset="1" android:color="#C48040" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- bulb halo -->
+    <path android:pathData="M32,67a22,22 0,1 0,44 0a22,22 0,1 0,-44 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="67"
+                android:gradientRadius="22">
+                <item android:offset="0" android:color="#99FFC882" />
+                <item android:offset="1" android:color="#00FFC882" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- bulb -->
+    <path
+        android:strokeColor="#66FFFFFF"
+        android:strokeWidth="0.5"
+        android:pathData="M46,67a8,8 0,1 0,16 0a8,8 0,1 0,-16 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="67.5"
+                android:gradientRadius="8.5">
+                <item android:offset="0" android:color="#FFFFF4DE" />
+                <item android:offset="0.55" android:color="#EBFFCD8C" />
+                <item android:offset="1" android:color="#B3FFA85A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- filament -->
+    <path
+        android:strokeColor="#FFFFF4D6"
+        android:strokeWidth="0.7"
+        android:strokeLineJoin="round"
+        android:pathData="M52.5,62L51,70M55.5,62L57,70M51,70L52,69.4L53,71L54,70.2L55,71L56,69.4L57,70" />
+</vector>
